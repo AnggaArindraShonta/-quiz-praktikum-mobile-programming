@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">QuizPraktikum</string>
+    <string name="harga" />
+    <string name="bintang" />
+    <string name="sign_in" />
+    <string name="sign_up" />
+</resources>

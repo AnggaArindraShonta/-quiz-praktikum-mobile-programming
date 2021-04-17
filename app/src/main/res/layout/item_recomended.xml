@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="20dp">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/kureta" />
+
+        <TextView
+            android:id="@+id/rating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="95dp"
+            android:layout_marginTop="7dp"
+            android:fontFamily="@font/poppinssb"
+            android:text="@string/bintang"
+            android:textColor="#fff"
+            android:textSize="13sp" />
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtnama"
+            android:fontFamily="@font/poppinsmedium"
+            android:textColor="@color/black"
+            android:layout_marginStart="20dp"
+            android:textSize="18sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kuretakeso Hott"/>
+        <TextView
+            android:id="@+id/txtharga"
+            android:fontFamily="@font/poppinslight"
+            android:textColor="@color/black"
+            android:layout_marginStart="18dp"
+            android:textSize="18sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/harga"/>
+        <TextView
+            android:id="@+id/txttempat"
+            android:fontFamily="@font/poppinslight"
+            android:textColor="@color/black"
+            android:layout_marginStart="18dp"
+            android:textSize="18sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bandung, Germany"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
