@@ -55,7 +55,7 @@ public class HomeActivity extends AppCompatActivity {
 
             @Override
             public void onFailure(Call<List<Kos>> call, Throwable t) {
-
+                Log.e(TAG, "onFailure: ", t);
             }
         });
     }
